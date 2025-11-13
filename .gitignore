@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.log
+
+# PDFs de teste (opcional)
+*.pdf
+
+# Excel exports
+*.xlsx
+*.xls
+
+# Node (arquivos antigos React)
+node_modules/
+package-lock.json
+dist/
+build/

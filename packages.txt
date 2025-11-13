@@ -1,0 +1,2 @@
+# Pacotes de sistema necessários para Streamlit Community Cloud
+# (geralmente não é necessário para esta aplicação, mas fica aqui caso precise)

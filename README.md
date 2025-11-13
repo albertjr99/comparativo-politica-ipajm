@@ -170,6 +170,29 @@ secondaryBackgroundColor = "#F0F2F6"  # Cor secundária
 textColor = "#262730"  # Cor do texto
 ```
 
+## 🌐 Deploy em Produção
+
+### Opção Recomendada: Streamlit Community Cloud (Gratuito)
+
+1. Acesse: https://share.streamlit.io/
+2. Faça login com GitHub
+3. Clique em "New app"
+4. Configure:
+   - Repository: `albertjr99/comparativo-politica-ipajm`
+   - Branch: `claude/python-modernize-ui-016g5o2dVekXyyBeYxDQQ3j8`
+   - Main file: `app.py`
+5. Clique em "Deploy"
+
+**URL final**: `https://seu-usuario-comparativo-politica.streamlit.app`
+
+### Outras Opções:
+
+- **Render**: Deploy automático com plano gratuito (arquivo `render.yaml` incluído)
+- **Railway**: $5 de crédito/mês (arquivo `railway.json` incluído)
+- **Heroku**: Pago ($7/mês) (arquivo `Procfile` incluído)
+
+📖 **Guia completo de deploy**: Veja o arquivo `DEPLOY.md` para instruções detalhadas de cada plataforma.
+
 ## 🐛 Solução de Problemas
 
 ### Erro ao instalar dependências
